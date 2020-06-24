@@ -36,6 +36,9 @@ jobs:
     - name: Build Yarn and npm
       uses: linchpin/action-build-yarn-npm@master
       
+    - name : Creating yarn build
+      run : yarn build
+      
     - name : Installing Surge
       run : npm install -g surge
     - name : Deploy Surge
