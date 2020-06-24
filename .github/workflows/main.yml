@@ -33,7 +33,7 @@ jobs:
         # Yarn command
         cmd: install  #yarn install /npm install
         
-    - name : building yarn
+    - name : Creating Build
       run : yarn build
       
     - name : Installing Surge
