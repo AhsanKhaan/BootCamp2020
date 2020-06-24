@@ -33,7 +33,7 @@ jobs:
         # Yarn command
         cmd: install  #yarn install /npm install
     - name : Creating yarn build
-      run : yarn build ./boot-camp-react-app
+      run : yarn build 
       
     - name : Installing Surge
       run : npm install -g surge
